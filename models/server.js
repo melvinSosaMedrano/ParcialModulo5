@@ -8,7 +8,7 @@ class Server {
     //CODIGO DE CAPAINTERMEDIA ----MIDDLEWARES ------
     this.middlewares();
 
-    this.port = process.env.port;
+    this.port = process.env.PORT;
 
     // Ruta de user.js
     this.PaisPath = "/api/Pais";
